@@ -3,8 +3,13 @@ public class TASK3equalIsNot {
 
     }
     public static boolean equalIsNot(String str){
+        int countis=0;
+        int countnot=0;
         for (int i = 0 ;i <str.length();i++){
-            if (str.charAt(i)=='i'&&str.charAt(i+1)=='s'){
+            if (str.substring(i,i+2).equals("is")){
+                countis++;
+
+            }
 
             }
 
