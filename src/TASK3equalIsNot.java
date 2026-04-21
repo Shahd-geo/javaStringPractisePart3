@@ -16,4 +16,5 @@ public class TASK3equalIsNot {
             }
 
     }
+        return countis==countnot;
 }
