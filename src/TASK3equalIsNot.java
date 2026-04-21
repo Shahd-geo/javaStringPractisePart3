@@ -10,6 +10,8 @@ public class TASK3equalIsNot {
                 countis++;
 
             }
+            if (str.substring(i,i+3).equals("not")){
+                countnot++;
 
             }
 
