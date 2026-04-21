@@ -1,7 +1,7 @@
 public class TASK4gHappy {
     static void main(String[] args) {
         String str="xxggxx";
-        S
+        System.out.println(gHappy(str));
     }
 
 
