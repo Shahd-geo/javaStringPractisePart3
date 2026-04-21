@@ -7,9 +7,9 @@ public class TASK5countTriple {
     }
     public static Integer countTriple(String str){
         int count3=0;
-        for (int i =0 ; i <str.length();i++){
-            if (i<str.length()-3 && str.substring(i , i+4).equals(i)){
-                count3++;
+        for (int i =0 ; i <str.length();i++) {
+            if (str.charAt(i) == str.charAt(i + 1) && str.charAt(i) == str.charAt(i + 2)) {
+                count3++
             }
         }
         return count3;
