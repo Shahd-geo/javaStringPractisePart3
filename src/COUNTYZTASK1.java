@@ -1,6 +1,7 @@
 public class COUNTYZTASK1 {
     static void main(String[] args) {
-        String countYZ = "fez day";
+        String countYZ = "day fez";
+
         int count = 0;
         for (int i = 0; i < countYZ.length(); i++) {
             if (countYZ.charAt(i)=='z'|| countYZ.charAt(i)=='Z' ||
