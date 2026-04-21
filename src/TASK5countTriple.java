@@ -1,5 +1,7 @@
 public class TASK5countTriple {
     static void main(String[] args) {
+        String str="abcXXXabc";
+
 
     }
     public static Integer countTriple(String str){
@@ -9,6 +11,7 @@ public class TASK5countTriple {
                 count3++;
             }
         }
+        return count3;
 
     }
 }
