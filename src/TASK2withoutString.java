@@ -6,10 +6,10 @@ public class TASK2withoutString {
         String result = "";
         String str=str1.toLowerCase();
         String Remove=remove.toLowerCase();
-        for (int i =0 ;i<str1.length()){
-            if (str1.charAt(i)==str2){
-
-            }
+        for (int i =0 ;i<str1.length();i++){
+            if (str1.startsWith(remove,i)){
+                i+=remove.length()-1;//skip
+            }else {
         }
     }
 }
