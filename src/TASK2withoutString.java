@@ -2,6 +2,7 @@ public class TASK2withoutString {
     static void main(String[] args) {
         String str1= "Hello there";
         String remove="llo";
+        System.out.println(withoutString(str1,remove));
 
 
     }
