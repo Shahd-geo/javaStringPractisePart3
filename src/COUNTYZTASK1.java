@@ -3,7 +3,10 @@ public class COUNTYZTASK1 {
         String countYZ = "fez day";
         int count = 0;
         for (int i = 0; i < countYZ.length(); i++) {
-            if (countYZ.charAt(i)=="z" || "Z" && (i + 1) == "") {
+            if (countYZ.charAt(i)=='z'|| countYZ.charAt(i)=='Z' ||
+                    countYZ.charAt(i)=='y'||countYZ.charAt(i)=='Y' &&
+                    (i==countYZ.length()-1||!)
+
                 count +=;
             } else if (i == "f" || "F" && (i + 1) == "") {
                 count +=;
