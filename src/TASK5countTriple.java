@@ -3,6 +3,7 @@ public class TASK5countTriple {
 
     }
     public static Integer countTriple(String str){
-        int
+        int count3=0;
+
     }
 }
