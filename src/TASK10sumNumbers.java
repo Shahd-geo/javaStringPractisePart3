@@ -4,6 +4,7 @@ public class TASK10sumNumbers {
     }
     public static Integer sumNumbers(String str){
         String num = "";
+        int sum =0;
 
     }
 }
