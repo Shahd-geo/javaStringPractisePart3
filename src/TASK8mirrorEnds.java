@@ -1,5 +1,8 @@
 public class TASK8mirrorEnds {
     static void main(String[] args) {
+        String str="abXYZba";
+        System.out.println();
+
 
     }
     public static String mirrorEnds(String str){
