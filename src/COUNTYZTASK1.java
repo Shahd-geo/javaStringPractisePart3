@@ -1,5 +1,5 @@
 public class COUNTYZTASK1 {
-    /* static void main(String[] args) {
+    static void main(String[] args) {
          String countYZ = "day fez";
 
          int count = 0;
@@ -15,15 +15,3 @@ public class COUNTYZTASK1 {
 
      }
  }
-     */
-    static void main(String[] args) {
-        String str = "day fez";
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == 'z' || str.charAt(i) == 'Z' || str.charAt(i) == 'y' || str.charAt(i) == 'Y' && (i == str.length() - 1 || !Character.isLetter(str.charAt(i + 1)))) {
-                count++;
-            }
-        }
-        System.out.println(count);
-    }
-}
