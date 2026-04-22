@@ -1,7 +1,7 @@
 public class TASK9maxBlock {
     static void main(String[] args) {
         String str="hoopla";
-        System.out.println();
+        System.out.println(maxBlock());
 
 
     }
