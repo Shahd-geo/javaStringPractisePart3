@@ -15,6 +15,7 @@ public class TASK9maxBlock {
                 }
                 count=1;
             }
+            return max;
 
 
         }
