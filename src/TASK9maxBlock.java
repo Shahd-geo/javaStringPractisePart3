@@ -1,5 +1,8 @@
 public class TASK9maxBlock {
     static void main(String[] args) {
+        String str="hoopla";
+        System.out.println();
+
 
     }
     public static Integer maxBlock(String str){
