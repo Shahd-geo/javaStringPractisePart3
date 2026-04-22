@@ -6,7 +6,7 @@ public class TASK8mirrorEnds {
         String result="";
         for (int i = 0 ;i<str.length();i++){
         if (str.charAt(i)==str.charAt(str.length()-1 -i)){
-            re
+            result+=str.charAt(i);
         }
 
 
