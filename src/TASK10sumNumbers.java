@@ -1,5 +1,7 @@
 public class TASK10sumNumbers {
     static void main(String[] args) {
+        String str="abc123xyz";
+        System.out.println(sumNumbers(str));
 
     }
     public static Integer sumNumbers(String str) {
@@ -9,11 +11,11 @@ public class TASK10sumNumbers {
             if (Character.isDigit(str.charAt(i))) {
                 num += str.charAt(i);
 
-            }
-        } else{
-            if (!num.equals("")) {
-                sum += Integer.parseInt(num);
-                num = "";
+            }else {
+                if (!num.equals("")) {
+                    sum += Integer.parseInt(num);
+                    num = "";
+                }
             }
         }
         if (!num.equals("")) {
