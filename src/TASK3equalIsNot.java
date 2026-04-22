@@ -30,4 +30,20 @@ public class TASK3equalIsNot {
        System.out.println(equalIsNot(str));
    }
 
+    public static boolean equalIsNot(String str) {
+       int countis=0;
+       int countnot=0;
+       for (int i = 0 ; i<str.length();i++){
+           if (str.substring(i,i+2).equals("is")){
+               countis++;
+           } else if (str.substring(i,i+3).equals("not")) {
+               countnot++;
+
+           }
+       }if (countis==countnot){
+           return true;
+        }
+       return false
+    }
+
    }
