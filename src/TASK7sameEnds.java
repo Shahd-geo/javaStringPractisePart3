@@ -1,6 +1,6 @@
 public class TASK7sameEnds {
     static void main(String[] args) {
-        String str="abXYZba";
+        String str="abXYab";
         System.out.println(sameEnds(str));
 
     }
