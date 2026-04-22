@@ -5,6 +5,9 @@ public class TASK10sumNumbers {
     public static Integer sumNumbers(String str){
         String num = "";
         int sum =0;
+        for (int i = 0 ; i<str.length();i++){
+
+        }
 
     }
 }
