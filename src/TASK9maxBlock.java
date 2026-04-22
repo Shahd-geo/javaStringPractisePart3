@@ -3,9 +3,11 @@ public class TASK9maxBlock {
 
     }
     public static Integer maxBlock(String str){
+        int max=0;
+        int count=1;
         for (int i =0;i<str.length();i++){
-            int max=0;
-            int count=1;
+
+            if ()
 
 
         }
