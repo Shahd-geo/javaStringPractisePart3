@@ -6,8 +6,12 @@ public class TASK10sumNumbers {
         String num = "";
         int sum =0;
         for (int i = 0 ; i<str.length();i++){
+            if (Character.isDigit(i)){
+                num+=;
 
-        }
+            }
+
+        }sum+=Integer.parseInt(num);
 
     }
 }
