@@ -23,8 +23,8 @@ public class TASK3equalIsNot {
 
          return countis == countnot;
      }
- }
- */
+
+ *///practice two time to fully understanded
     static void main(String[] args) {
         String str = "noisxxnotyynotxisi";
         System.out.println(equalIsNot(str));
