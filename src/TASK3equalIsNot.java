@@ -26,7 +26,7 @@ public class TASK3equalIsNot {
  }
  */
     static void main(String[] args) {
-        String str = "This is not";
+        String str = "noisxxnotyynotxisi";
         System.out.println(equalIsNot(str));
     }
 
@@ -34,9 +34,9 @@ public class TASK3equalIsNot {
         int countis = 0;
         int countnot = 0;
         for (int i = 0; i < str.length(); i++) {
-            if (str.substring(i, i + 2).equals("is")) {
+            if (i<=str.length()-2 &&str.substring(i, i + 2).equals("is")) {
                 countis++;
-            } else if (str.substring(i, i + 3).equals("not")) {
+            } else if (i<= str.length()-3 &&str.substring(i, i + 3).equals("not")) {
                 countnot++;
 
             }
