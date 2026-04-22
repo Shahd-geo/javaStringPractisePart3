@@ -9,7 +9,9 @@ public class TASK7sameEnds {
         for (int i = 0 ; i <=len /2;i++){
             String start=str.substring(0,i);
             String end =str.substring(len,-i);
-            if ()
+            if (start.equals(end)){
+                result=start;
+            }
 
         }
         }
