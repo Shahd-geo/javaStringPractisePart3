@@ -6,7 +6,7 @@ public class TASK7sameEnds {
     }
 
     public static String sameEnds(String str) {
-        String len = str.length();
+        int len = str.length();
         String result = "";
         for (int i = 0; i <= len / 2; i++) {
             String start = str.substring(0, i);
