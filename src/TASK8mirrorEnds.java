@@ -13,6 +13,6 @@ public class TASK8mirrorEnds {
 
 
         }
-        r
+        return result;
     }
 }
