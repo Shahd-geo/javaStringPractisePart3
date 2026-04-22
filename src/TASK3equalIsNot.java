@@ -1,5 +1,5 @@
 public class TASK3equalIsNot {
-    static void main(String[] args) {
+   /* static void main(String[] args) {
         String str = "This is not";
         System.out.println(equalIsNot(str));
 
@@ -24,3 +24,10 @@ public class TASK3equalIsNot {
         return countis == countnot;
     }
 }
+*/
+   static void main(String[] args) {
+       String str = "This is not";
+       System.out.println(equalIsNot(str));
+   }
+
+   }
