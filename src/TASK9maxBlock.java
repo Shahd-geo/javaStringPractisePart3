@@ -14,7 +14,7 @@ public class TASK9maxBlock {
             if (i < str.length() - 1 && str.charAt(i) == str.charAt(i + 1)) {
                 count++;
             } else {
-                if (count < max) {
+                if (count > max) {
                     max = count;
                 }
                 count = 1;
@@ -28,4 +28,4 @@ public class TASK9maxBlock {
     }
 }
 
-}
+
