@@ -11,7 +11,7 @@ public class TASK9maxBlock {
                 count++;
             }else {
                 if (count<max){
-                    max==count;
+                    max=count;
                 }
                 count=1;
             }
